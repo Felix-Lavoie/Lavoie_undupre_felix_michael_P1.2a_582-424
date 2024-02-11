@@ -14,5 +14,13 @@ h5, .h5{ font-size: 24px; font-weight: 300; color: var(--dark-grey-blue); }
 h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 
 /*----- Styles Généraux -----*/
+.footer {
+  background-color: #2B2D42;
+  padding: 1rem;
+  margin-top: 1rem;
+}
 
+.footer-text {
+  color: #EF233C;
+}
 /*----- Section Hero -----*/
