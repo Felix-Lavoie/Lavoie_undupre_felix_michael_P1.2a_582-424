@@ -16,8 +16,26 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 /*--------------------------------------------------------- 
 # Styles Généraux 
 ---------------------------------------------------------*/ 
+.logo {
+  width: 70px;
+}
 
+.footer {
+  background-color: #2B2D42;
+  padding: 1rem;
+  margin-top: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
+.phone {
+  margin-top: 160px;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 5/9;
+}
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
