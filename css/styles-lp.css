@@ -38,8 +38,7 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 }
 
 .fonctionnalités {
-  text-align: center;
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .imgCardF {
@@ -56,6 +55,23 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 
 .card {
   margin-bottom: 50px;
+}
+
+.imgT {
+  height: 20vh;
+  object-fit: cover;
+}
+
+#fonctionnalites {
+  background-color: var(--grey-blue);
+}
+
+.textAlign {
+  text-align: center;
+}
+
+.tem {
+  margin: 50px;
 }
 /*---------------------------------------------------------- 
 # Section Hero  
