@@ -18,12 +18,12 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
   background-color: var(--dark-grey-blue);
   color: var(--white-blue);
   padding: 1rem;
-  width: 100%;
+  width: 100vw;
   position: static;
 }
 
 .card {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .text {
