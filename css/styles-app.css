@@ -15,13 +15,15 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 
 /*----- Styles Généraux -----*/
 .footer {
-  background-color: #2B2D42;
+  background-color: var(--dark-grey-blue);
+  color: var(--white-blue);
   padding: 1rem;
-  margin-top: 1rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
+  position: static;
+}
+
+.card {
+  margin: 20px;
 }
 
 .text {
@@ -30,5 +32,6 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 
 .footer-text {
   color: #edf2f4;
+  width: 100%;
 }
 /*----- Section Hero -----*/
