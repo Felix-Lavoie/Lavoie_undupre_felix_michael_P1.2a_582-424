@@ -22,7 +22,7 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 
 .footer {
   background-color: #2B2D42;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   position: fixed;
   left: 0;
