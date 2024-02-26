@@ -89,6 +89,34 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 .marginB {
   margin-bottom: 50px;
 }
+
+.subscribe-btn {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.cardInf {
+  background-color: var(--grey-blue);
+  filter: opacity(80%);
+  margin: 50px;
+}
+
+.backInf {
+  background-image: url(../assets/artists/artworks/godzilla.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.textInf {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.btnInf {
+  margin-top: 5px;
+  margin-left: 100px;
+}
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 

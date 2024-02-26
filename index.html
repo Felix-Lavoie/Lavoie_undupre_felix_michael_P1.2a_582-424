@@ -234,10 +234,6 @@
             </div>
         </section>
 
-        <section id="infolettre">
-            <!-- Contenu de la section infolettre -->
-        </section>
-
         <section id="faq">
             <div class="container">
                 <div class="row justify-content-center">
@@ -304,8 +300,35 @@
                 </div>
             </div>    
         </section>
-        <br>
-        <br>
+
+        <section id="infolettre" class="backInf">
+            <!-- Contenu de la section infolettre -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-4 col-sm-6 cardInf">
+                        <h2 class="textAlign tem">Infolettre</h2>
+                        <p class="textInf">“Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l’appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.”</p>
+                        <a href="#" class="btn btn-primary subscribe-btn" data-bs-toggle="modal" data-bs-target="#infoModal">Je m’abonne</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="infoModal" aria-labelledby="infoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="infoModalLabel">Rester informer !</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <i class="bi bi-envelope-at-fill"></i> <input type="text">
+                            <button class="btnInf" type="button" data-bs-dismiss="modal" aria-label="Close">annuler</button>
+                            <button class="btnInf2" type="button">M'inscrire</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <br>
         <br>
         <br>
