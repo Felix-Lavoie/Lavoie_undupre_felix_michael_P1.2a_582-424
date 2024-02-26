@@ -73,6 +73,14 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 .tem {
   margin: 50px;
 }
+
+.quote-icon {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  font-size: 3rem;
+  color: green;
+}
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
