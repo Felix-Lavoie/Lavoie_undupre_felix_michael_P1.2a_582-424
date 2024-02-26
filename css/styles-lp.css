@@ -66,6 +66,10 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
   background-color: var(--grey-blue);
 }
 
+#faq {
+  background-color: var(--grey-blue);
+}
+
 .textAlign {
   text-align: center;
 }
@@ -80,6 +84,10 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
   left: -10px;
   font-size: 3rem;
   color: green;
+}
+
+.marginB {
+  margin-bottom: 50px;
 }
 /*---------------------------------------------------------- 
 # Section Hero  
