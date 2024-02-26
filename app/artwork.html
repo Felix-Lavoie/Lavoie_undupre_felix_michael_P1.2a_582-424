@@ -23,10 +23,13 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
         <div class="container-fluid">
+            <a href="/app/index.html">
             <button class="btn">
                 <i class="bi bi-chevron-left"></i>
             </button>
+            </a>
             <button class="btn" id="likeButton">J'aime</button>
+        
         </div>
     </nav>
 
@@ -73,6 +76,46 @@
         </div>
       </div>
     </div>
+
+      <!-- Accordéon pour réserver une place -->
+  <div class="container mt-5">
+    <div class="accordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#reservationCollapse"
+            aria-expanded="true" aria-controls="reservationCollapse">
+            Réservez votre place
+          </button>
+        </h2>
+        <div id="reservationCollapse" class="accordion-collapse collapse show" aria-labelledby="reservationHeading"
+          data-bs-parent="#reservationAccordion">
+          <div class="accordion-body">
+            <!-- Formulaire de réservation -->
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Courriel</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="prenom">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" class="form-control" id="Nom">
+              </div>
+              <div class="mb-3">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="date">
+              </div>
+              <button type="submit" class="btn btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 
     <!-- bas de page-->
     <footer class="footer">
