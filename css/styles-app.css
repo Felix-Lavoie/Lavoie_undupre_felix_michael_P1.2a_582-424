@@ -38,8 +38,4 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 .img_oeuvre{
   height: 33vh;
 }
-
-.swiper-slide {
-  width: auto;
-}
 /*----- Section Hero -----*/
