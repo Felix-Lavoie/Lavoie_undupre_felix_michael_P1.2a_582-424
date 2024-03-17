@@ -23,8 +23,6 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 .footer {
   background-color: var(--dark-grey-blue);
   padding: 0.5rem;
-  margin-top: 1rem;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -120,15 +118,19 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 }
 
 .swiper-screenshots {
-  border: 1px solid #ccc; /* Simulate phone frame */
+  border: 1px solid #ccc; 
 }
 
 .swiper-slide {
-  opacity: 0.5; /* Semi-transparent */
+  opacity: 0.5;
 }
 
 .swiper-slide-active {
-  opacity: 1; /* Fully opaque for active slide */
+  opacity: 1; 
+}
+
+.swiper-wrapper {
+  height: 50vh;
 }
 /*---------------------------------------------------------- 
 # Section Hero  
