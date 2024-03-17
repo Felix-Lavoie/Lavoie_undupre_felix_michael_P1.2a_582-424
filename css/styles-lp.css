@@ -118,7 +118,7 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 }
 
 .swiper-screenshots {
-  border: 1px solid #ccc; 
+  border: 1px solid var(--white-blue); 
 }
 
 .swiper-slide {
