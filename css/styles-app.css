@@ -61,4 +61,8 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 li  {
   margin-right: 5px;
 }
+
+.accordion {
+  margin-bottom: 20px;
+}
 /*----- Section Hero -----*/
