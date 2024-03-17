@@ -54,8 +54,11 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
   margin-top: 30px;
 }
 
-.swiper-wrapper
- {
+.swiper-wrapper{
   margin-right: 20px;
+}
+
+li  {
+  margin-right: 5px;
 }
 /*----- Section Hero -----*/
