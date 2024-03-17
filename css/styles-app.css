@@ -18,8 +18,6 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
   background-color: var(--dark-grey-blue);
   color: var(--white-blue);
   padding: 1rem;
-  width: 100vw;
-  position: static;
 }
 
 .card {
@@ -37,5 +35,22 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 
 .img_oeuvre{
   height: 33vh;
+}
+
+.bi-search {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.marge {
+  padding-left: 30px;
+}
+
+.marge-text {
+  padding-left: 20px;
+}
+
+#en-vedette {
+  margin-top: 30px;
 }
 /*----- Section Hero -----*/
