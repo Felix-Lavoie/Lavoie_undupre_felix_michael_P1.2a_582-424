@@ -118,6 +118,18 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
   margin-top: 5px;
   margin-left: 100px;
 }
+
+.swiper-screenshots {
+  border: 1px solid #ccc; /* Simulate phone frame */
+}
+
+.swiper-slide {
+  opacity: 0.5; /* Semi-transparent */
+}
+
+.swiper-slide-active {
+  opacity: 1; /* Fully opaque for active slide */
+}
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
