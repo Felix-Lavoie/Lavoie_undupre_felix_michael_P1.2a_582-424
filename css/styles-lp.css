@@ -21,7 +21,7 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 }
 
 .footer {
-  background-color: #2B2D42;
+  background-color: var(--dark-grey-blue);
   padding: 0.5rem;
   margin-top: 1rem;
   position: fixed;
@@ -84,7 +84,7 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
   top: -30px;
   left: -10px;
   font-size: 3rem;
-  color: green;
+  color: var(--red);
 }
 
 .marginB {
@@ -117,10 +117,6 @@ h6, .h6{ font-size: 20px; font-weight: 200; color: var(--dark-grey-blue); }
 .btnInf {
   margin-top: 5px;
   margin-left: 100px;
-}
-
-.bi {
-  color: var(--red);
 }
 /*---------------------------------------------------------- 
 # Section Hero  
